@@ -1,5 +1,5 @@
 num = int(input("what is your number: "))
-remainder = num//2
+remainder = num%2
 if num < 0 or num > 36:
     print("The bet will not play!")
 elif num == 0: 
