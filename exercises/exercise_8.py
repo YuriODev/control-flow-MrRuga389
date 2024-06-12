@@ -1,11 +1,11 @@
 a = int((input("")))
 b = int(input(""))
-c = "False"
+c = False
 if b == a//100:
-    c = "True"
+    c = True
 elif b == (a//10)%10:
-    c = "True"
+    c = True
 elif b == a%10:
-    c = "True"
+    c = True
 print(c)
     
